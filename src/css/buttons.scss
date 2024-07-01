@@ -1,0 +1,119 @@
+button {
+    all: unset;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+    text-align: center;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-white,
+.btn-white--outline {
+    height: 56px;
+}
+
+.btn-white {
+    height: 56px;
+
+    &--outline {
+        border: 1px solid white;
+        border-radius: 35px;
+
+        color: white;
+
+        font-size: 22px;
+    }
+}
+
+.btn-orange,
+.btn-orange--outline {
+    height: 56px;
+
+    color: white;
+    border-radius: 32px;
+}
+
+.btn-orange {
+    background: #ff9900;
+
+    &--outline {
+        border: 2px solid #ff9900
+    }
+}
+
+.btn-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 3.65px;
+
+    width: 100%;
+    height: 43.91px;
+    padding: 8px 16px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.6px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+
+}
+
+.btn-green,
+.btn-yellow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 53px;
+
+    border-radius: 32px;
+
+    color: #ffffff;
+}
+
+.btn-green {
+    background: #229b20;
+    padding: 0 24px;
+}
+
+.btn-yellow {
+    background: #eec226
+}
+
+.btn-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 46px;
+    padding: 0 24px;
+
+    &--outline {
+        background: #ffffff;
+        border: 1.50353px solid #b7b7b7;
+        box-shadow: 0px 1.50353px 3.00707px rgba(38, 110, 255, 0.05);
+        border-radius: 52.6237px;
+    }
+}
